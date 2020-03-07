@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <Button
+      android:id="@+id/test_constraint"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test ConstraintLayout"
+  />
+  <Button
+      android:id="@+id/test_coordinator"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test CoordinatorLayout"
+  />
+
+  <Button
+      android:id="@+id/test_memory_shake"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test Memory Leak/Shake"
+  />
+
+
+</LinearLayout>
