@@ -22,11 +22,33 @@
   />
 
   <Button
+      android:id="@+id/test_mvvm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test MVVM"
+  />
+
+  <Button
       android:id="@+id/test_memory_shake"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Test Memory Leak/Shake"
   />
+
+  <Button
+      android:id="@+id/test_voice_command"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test Voice Command"
+  />
+
+  <Button
+      android:id="@+id/test_forgroudservice"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test 前台服务"
+  />
+
 
 
 </LinearLayout>

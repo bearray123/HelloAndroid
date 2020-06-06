@@ -15,6 +15,11 @@ public class MyObserver implements LifecycleObserver {
 
     private static final String TAG = "MyObserver";
 
+    @OnLifecycleEvent(Lifecycle.Event.ON_START)
+    public void onStart() {
+        Log.d(TAG, "MyObserver:: onStart()");
+    }
+
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
     public void onResume() {
         Log.d(TAG, "MyObserver:: onResume()");
@@ -23,6 +28,11 @@ public class MyObserver implements LifecycleObserver {
     @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
     public void onPause() {
         Log.d(TAG, "MyObserver:: onPause()");
+    }
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
+    public void onStop() {
+        Log.d(TAG, "MyObserver:: onStop()");
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)

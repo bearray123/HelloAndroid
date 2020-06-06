@@ -37,6 +37,8 @@
     <activity android:name="com.tayue.android.hello.TestCoordinatorLayoutActivity"/>
 
 
+
+
     <!--  自动拉起的透明页面 ，中转 service -->
     <activity
         android:name="com.tayue.android.hello.voicecommand.VoiceCmdLauncherActivity"
@@ -53,6 +55,8 @@
       </intent-filter>
     </activity>
 
+    <activity android:name="com.tayue.android.hello.voicecommand.VoiceAssistantInfoActivity"/>
+
 
     <activity android:name="com.tayue.android.hello.memory.MockMemoryLeakActivity"/>
 
@@ -60,7 +64,7 @@
     <service android:name="com.tayue.android.hello.voicecommand.DMAService"></service>
 
 
-    <receiver android:name="com.tayue.android.hello.broadcast.BTBroadcastReceiver"  android:exported="true">
+    <receiver android:name="com.tayue.android.hello.broadcast.TestBroadcastReceiver"  android:exported="true">
       <intent-filter>
         <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
       </intent-filter>

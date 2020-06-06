@@ -20,26 +20,26 @@ import android.util.Log;
  *
  * Created by xionglei01@baidu.com on 2020-02-06.
  */
-public class BTBroadcastReceiver extends BroadcastReceiver {
+public class TestBroadcastReceiver extends BroadcastReceiver {
     @Override public void onReceive(Context context, Intent intent) {
 
-        Log.d("xl", "BTBroadcastReceiver#onReceive:::");
+        Log.d("xl", "TestBroadcastReceiver#onReceive:::");
         if (intent != null) {
             if (BluetoothAdapter.ACTION_STATE_CHANGED.equals(intent.getAction())) {
                 int state = intent.getIntExtra(BluetoothAdapter.EXTRA_STATE,
                     BluetoothAdapter.ERROR);
                 switch (state) {
                     case BluetoothAdapter.STATE_OFF:
-                        Log.d("xl" ,"BTBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_OFF");
+                        Log.d("xl" ,"TestBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_OFF");
                         break;
                     case BluetoothAdapter.STATE_TURNING_OFF:
-                        Log.d("xl" ,"BTBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_TURNING_OFF");
+                        Log.d("xl" ,"TestBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_TURNING_OFF");
                         break;
                     case BluetoothAdapter.STATE_ON:
-                        Log.d("xl" ,"BTBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_ON");
+                        Log.d("xl" ,"TestBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_ON");
                         break;
                     case BluetoothAdapter.STATE_TURNING_ON:
-                        Log.d("xl" ,"BTBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_TURNING_ON");
+                        Log.d("xl" ,"TestBroadcastReceiver#onReceive::: BluetoothAdapter.STATE_TURNING_ON");
                         break;
                     default:
                         break;

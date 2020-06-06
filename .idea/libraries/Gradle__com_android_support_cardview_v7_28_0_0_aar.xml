@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:cardview-v7:28.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/108a325348d4001cab290f033f737d83/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/108a325348d4001cab290f033f737d83/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc8c57de524b03b4cc5f528aa94e618f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc8c57de524b03b4cc5f528aa94e618f/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -30,5 +30,7 @@ dependencies {
 
 
     implementation project(':mvvm')
+    implementation project(':bluetooth')
+
 
 }
