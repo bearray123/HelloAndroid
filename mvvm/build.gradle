@@ -41,7 +41,9 @@ dependencies {
     implementation "android.arch.lifecycle:livedata:$lifecycle_version"
     // 仅仅包含Lifecycles
     implementation "android.arch.lifecycle:runtime:$lifecycle_version"
-  implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${KOTLIN_VERSION}"
 
   //我们直接添加android.arch.lifecycle:extensions
     // 依赖就可以满足日常的工作，如果缺少哪个库，再去单独添加就好了。

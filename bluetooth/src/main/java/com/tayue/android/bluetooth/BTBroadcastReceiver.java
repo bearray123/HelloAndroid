@@ -22,24 +22,32 @@ public class BTBroadcastReceiver extends BroadcastReceiver {
 
     @Override public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
+        Log.d(TAG, "xl## action =" + action);
+        BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+
 
         switch (action) {
             case BluetoothDevice.ACTION_ACL_CONNECTED:
+                Log.d(TAG, "xl## a2dp receiver:: action= ACTION_ACL_CONNECTED || "
+                    + "bluetoothName: " + device.getName() + "|| bluetoothMac: " + device.getAddress());
+
                 break;
             case BluetoothDevice.ACTION_ACL_DISCONNECTED:
+                Log.d(TAG, "xl## a2dp receiver:: action= ACTION_ACL_DISCONNECTED  ||"
+                    + "bluetoothName: " + device.getName() + "|| bluetoothMac: " + device.getAddress());
                 break;
             case BluetoothAdapter.ACTION_STATE_CHANGED:
                 break;
             case BluetoothA2dp.ACTION_CONNECTION_STATE_CHANGED:
                 break;
             case BluetoothA2dp.ACTION_PLAYING_STATE_CHANGED:
-                Log.d(TAG, "xl# a2dp receiver:: action=" + "ACTION_PLAYING_STATE_CHANGED");
+                Log.d(TAG, "xl## a2dp receiver:: action=" + "ACTION_PLAYING_STATE_CHANGED");
                 switch (intent.getIntExtra(BluetoothA2dp.EXTRA_STATE, -1)) {
                     case BluetoothA2dp.STATE_PLAYING:
-                        Log.d(TAG, "xl# a2dp receiver:: EXTRA_STATE=" + "a2dp is playing...");
+                        Log.d(TAG, "xl## a2dp receiver:: EXTRA_STATE=" + "a2dp is playing...");
                         break;
                     case BluetoothA2dp.STATE_NOT_PLAYING:
-                        Log.d(TAG, "xl# a2dp receiver:: EXTRA_STATE=" + "a2dp is not playing...");
+                        Log.d(TAG, "xl## a2dp receiver:: EXTRA_STATE=" + "a2dp is not playing...");
                         break;
                     default:
                         break;

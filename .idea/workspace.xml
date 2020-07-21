@@ -18,43 +18,25 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="warn" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c00e4d-5aa7-451b-93f2-3f680a54effe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceAssistantInfoActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_is_favorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_not_favorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_pre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/qplay_auto_qqmusic_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/notification_remote_views.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/voice_assistant_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/bluetooth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/androidTest/java/com/tayue/android/bluetooth/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/BTBroadcastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bluetooth/src/test/java/com/tayue/android/bluetooth/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/androidTest/java/com/tayue/android/hellokotlin/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestSyntax.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/test/java/com/tayue/android/hellokotlin/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/model/NewsDataBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/viewmodel/NewsViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvvm/src/main/res/layout/mvvm_main_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/network/TestNetworkActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/utils/WifiLockHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/tayue_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/AbsLiveData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/PowerService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TObserver2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestMain.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -68,7 +50,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_extensions_1_1_1_aar.xml" afterDir="false" />
@@ -106,25 +87,32 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloAndroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloAndroid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/broadcast/BTBroadcastReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/broadcast/TestBroadcastReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/DMAService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/DMAService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluetooth/bluetooth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/bluetooth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluetooth/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/BTBroadcastReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/BTBroadcastReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellokotlin/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellokotlin/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvvm/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mvvm/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvvm/mvvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvvm/mvvm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/lifecycle/MyObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/lifecycle/MyObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/view/TestMVVMMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/view/TestMVVMMainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,6 +164,7 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="UYT7N18309001116" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -184,12 +173,47 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cleanup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloAndroid" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -198,243 +222,36 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/DMAService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/view/TestMVVMMainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-              <folding>
-                <element signature="e#1260#1647#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/model/NewsDataBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/lifecycle/MyObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/android/arch/lifecycle/LiveData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/viewmodel/NewsViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/android/arch/lifecycle/MutableLiveData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#846#2048#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/graphics/drawable/Icon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="layoutResourceFile" />
-        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ANR</find>
-      <find>ACTION_STATE_CHANGED</find>
-      <find>implementation 'com.android.support:appcompat-v7:28.0.0'</find>
-      <find>fatal</find>
-      <find>helloword</find>
-      <find>TestBroadcastReceiver</find>
-      <find>kotlin</find>
-      <find>test_when_expression_1</find>
-      <find>test_when_expression</find>
-      <find>startSpeechRecieved</find>
-      <find>startForeground</find>
-      <find>VoiceCmdLauncherActivity</find>
-      <find>notificationManager</find>
-      <find>DMAService#</find>
-      <find>channel</find>
-      <find>ver</find>
-      <find>service</find>
-      <find>createRfcommSocketToServiceRecord socket</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/coordinator_entry.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/TestConstraintLayoutActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/constraint_entry.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/voicecommand/VoiceCmdLauncherActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/broadcast/BTBroadcastReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/voicecommand/DMAService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/job/MyJobScheduleService.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/mvvm/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/mock_leak_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/helloword_android/memory/MockMemoryLeakActivity.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/lifecycle/MyObserver.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/model/NewsLiveData.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/model/NewsDataBean.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/res/layout/mvvm_main_layout.xml" />
-        <option value="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/BTBroadcastReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/broadcast/TestBroadcastReceiver.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestSyntax.java" />
-        <option value="$PROJECT_DIR$/hellokotlin/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestSyntax.kt" />
-        <option value="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHeplper.java" />
-        <option value="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelp.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/VoiceAssistantInfoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceAssistantInfoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/voice_assistant_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/notification_remotes_views.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/notify.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/notification_remote_views.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/DMAService.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/viewmodel/NewsViewModel.java" />
-        <option value="$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/view/TestMVVMMainActivity.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1cvnwwLBFOCtrOWKrxTctUb1PPS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="23" />
-    <option name="width" value="1236" />
-    <option name="height" value="777" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HelloAndroid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloAndroid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DEBUGGABLE_DEVICE" value="huawei-alp_al00-UYT7N18309001116" />
     <property name="DEBUGGABLE_PROCESS" value="com.tayue.android.hello" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="16bcc25c" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-20T02:55:03.652Z" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -443,17 +260,25 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="device.picker.selection" value="UYT7N18309001116" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1591437054546" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tayue.android.helloword_android" />
@@ -461,18 +286,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -522,8 +335,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
@@ -560,13 +371,72 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainActivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tayue.android.hello.MainActivity" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tayue.android.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tayue.android.hellokotlin.TestSyntaxKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloAndroid:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hellokotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tayue.android.mvvm.kotlintest.PersonKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hellokotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tayue.android.hellokotlin.TestMainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tayue.android.hellokotlin.TestSyntaxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="hellokotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -580,6 +450,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -592,6 +463,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HelloAndroid:app [assemble]" />
+        <item itemvalue="Application.MainActivity" />
+        <item itemvalue="Kotlin.TestMainKt" />
+        <item itemvalue="Kotlin.PersonKt" />
         <item itemvalue="Kotlin.com.tayue.android.hellokotlin.TestSyntaxKt" />
       </list>
     </recent_temporary>
@@ -618,86 +493,13 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1236" height="777" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.24958123" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28140703" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.29909366" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.41389728" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.32930514" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" weight="0.39123866" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32930514" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32930514" />
-      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.04531722" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32746115" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.49774775" weight="0.32998326" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.33556485" />
-      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.5022523" side_tool="true" weight="0.32998326" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.24958123" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14270501" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.29909366" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.41389728" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.32930514" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" weight="0.39123866" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32930514" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32930514" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.044559587" />
-      <window_info active="true" anchor="bottom" id="Find" order="9" visible="true" weight="0.32746115" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.49774775" weight="0.32998326" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.33556485" />
-      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.5022523" side_tool="true" weight="0.32998326" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -718,367 +520,126 @@
       </map>
     </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15589a979f51e907125880a3730b367b/jars/classes.jar!/android/support/v7/app/AppCompatActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433432">
-          <caret line="26090" column="13" selection-start-line="26090" selection-start-column="13" selection-end-line="26090" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestSyntax.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceAssistantInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/voice_assistant_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/BTBroadcastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/job/MyJobScheduleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/memory/MockMemoryLeakActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/TestConstraintLayoutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3757#3906#0" expanded="true" />
-            <element signature="e#3905#3906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../AndroidSDK/platforms/android-28/android.jar!/android/Manifest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="668" column="32" selection-start-line="668" selection-start-column="32" selection-end-line="668" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/app/NotificationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="527" column="16" selection-start-line="527" selection-start-column="16" selection-end-line="527" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/app/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="495" column="28" selection-start-line="495" selection-start-column="28" selection-end-line="495" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da6f0c980aa30fb5de0df0861a588568/jars/classes.jar!/android/support/v4/app/NotificationCompat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="2312" column="15" selection-start-line="2312" selection-start-column="15" selection-end-line="2312" selection-end-column="15" />
-          <folding>
-            <element signature="e#99159#99160#0" expanded="true" />
-            <element signature="e#99210#99211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_beta.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_is_favorite.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_next.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_pre.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_play.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_pause.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/player_notification_not_favorite.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notification_remotes_views.xml" />
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/widget/RemoteViews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="2182" column="11" selection-start-line="2182" selection-start-column="11" selection-end-line="2182" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="5966" column="11" selection-start-line="5966" selection-start-column="11" selection-end-line="5966" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/app/PendingIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/qplay_auto_qqmusic_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="63" column="41" selection-start-line="63" selection-end-line="64" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notification_remote_views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/constraint_entry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-end-line="53" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/app/Notification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59534">
-          <caret line="3655" column="23" selection-start-line="3655" selection-start-column="23" selection-end-line="3655" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../AndroidSDK/sources/android-28/android/graphics/drawable/Icon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#846#2048#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/DMAService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/android/arch/lifecycle/MutableLiveData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/livedata-core/1.1.1/c38818e006ea7a408c05e3090364332d46494ef/livedata-core-1.1.1-sources.jar!/android/arch/lifecycle/LiveData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm/src/main/res/layout/mvvm_main_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/viewmodel/NewsViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/model/NewsDataBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/lifecycle/MyObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm/src/main/java/com/tayue/android/mvvm/view/TestMVVMMainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#1260#1647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="448" y="310" key="#PSD" timestamp="1591874119384">
+      <screen x="55" y="23" width="1737" height="1097" />
+    </state>
+    <state x="448" y="310" key="#PSD/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591874119384" />
+    <state x="388" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591876273116">
+      <screen x="55" y="23" width="1737" height="1097" />
+    </state>
+    <state x="388" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591876273116" />
+    <state x="2531" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1595321240239">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2531" y="274" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321240239" />
+    <state x="2256" y="152" key="CommitChangelistDialog2" timestamp="1595332520468">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2256" y="152" key="CommitChangelistDialog2/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595332520468" />
+    <state x="2058" y="102" key="DiffContextDialog" timestamp="1595332519902">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2058" y="102" key="DiffContextDialog/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595332519902" />
+    <state width="1878" height="239" key="GridCell.Tab.0.bottom" timestamp="1595322297199">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="239" key="GridCell.Tab.0.bottom/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595322297199" />
+    <state width="1695" height="295" key="GridCell.Tab.0.bottom/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591951059439" />
+    <state width="1695" height="253" key="GridCell.Tab.0.bottom/55.23.1737.1097@55.23.1737.1097" timestamp="1595142868645" />
+    <state width="1878" height="239" key="GridCell.Tab.0.center" timestamp="1595322297199">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="239" key="GridCell.Tab.0.center/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595322297199" />
+    <state width="1695" height="295" key="GridCell.Tab.0.center/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591951059438" />
+    <state width="1695" height="253" key="GridCell.Tab.0.center/55.23.1737.1097@55.23.1737.1097" timestamp="1595142868644" />
+    <state width="1878" height="239" key="GridCell.Tab.0.left" timestamp="1595322297198">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="239" key="GridCell.Tab.0.left/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595322297198" />
+    <state width="1695" height="295" key="GridCell.Tab.0.left/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591951059438" />
+    <state width="1695" height="253" key="GridCell.Tab.0.left/55.23.1737.1097@55.23.1737.1097" timestamp="1595142868644" />
+    <state width="1878" height="239" key="GridCell.Tab.0.right" timestamp="1595322297199">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="239" key="GridCell.Tab.0.right/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595322297199" />
+    <state width="1695" height="295" key="GridCell.Tab.0.right/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591951059439" />
+    <state width="1695" height="253" key="GridCell.Tab.0.right/55.23.1737.1097@55.23.1737.1097" timestamp="1595142868644" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1595321963579">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321963579" />
+    <state width="1695" height="364" key="GridCell.Tab.1.bottom/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591879137180" />
+    <state width="1695" height="364" key="GridCell.Tab.1.bottom/55.23.1737.1097@55.23.1737.1097" timestamp="1592028923163" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center" timestamp="1595321963579">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.center/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321963579" />
+    <state width="1695" height="364" key="GridCell.Tab.1.center/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591879137179" />
+    <state width="1695" height="364" key="GridCell.Tab.1.center/55.23.1737.1097@55.23.1737.1097" timestamp="1592028923162" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left" timestamp="1595321963579">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.left/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321963579" />
+    <state width="1695" height="364" key="GridCell.Tab.1.left/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591879137179" />
+    <state width="1695" height="364" key="GridCell.Tab.1.left/55.23.1737.1097@55.23.1737.1097" timestamp="1592028923162" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right" timestamp="1595321963579">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.right/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321963579" />
+    <state width="1695" height="364" key="GridCell.Tab.1.right/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591879137179" />
+    <state width="1695" height="364" key="GridCell.Tab.1.right/55.23.1737.1097@55.23.1737.1097" timestamp="1592028923163" />
+    <state x="425" y="210" key="SettingsEditor" timestamp="1595133511896">
+      <screen x="55" y="23" width="1737" height="1097" />
+    </state>
+    <state x="425" y="210" key="SettingsEditor/55.23.1737.1097@55.23.1737.1097" timestamp="1595133511896" />
+    <state x="2482" y="290" width="543" height="524" key="StructurePopup" timestamp="1595323046792">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2482" y="290" width="543" height="524" key="StructurePopup/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595323046792" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1593416706536">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1593416706536" />
+    <state x="709" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591511082621">
+      <screen x="55" y="23" width="1737" height="1097" />
+    </state>
+    <state x="709" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/55.23.1737.1097@55.23.1737.1097" timestamp="1591511082621" />
+    <state x="2309" y="294" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595321962239">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2309" y="294" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595321962239" />
+    <state x="2180" y="200" width="957" height="701" key="find.popup" timestamp="1595332149228">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2180" y="200" width="957" height="701" key="find.popup/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595332149228" />
+    <state x="406" y="207" width="866" height="728" key="find.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1595132944138" />
+    <state x="415" y="207" width="860" height="727" key="find.popup/66.23.1726.1097@66.23.1726.1097" timestamp="1591418613464" />
+    <state x="2417" y="256" key="run.anything.popup" timestamp="1592219761699">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2417" y="256" key="run.anything.popup/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1592219761699" />
+    <state x="2381" y="259" width="741" height="652" key="search.everywhere.popup" timestamp="1595326080500">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2381" y="259" width="741" height="652" key="search.everywhere.popup/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1595326080500" />
+    <state x="588" y="268" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/55.23.1737.1097@55.23.1737.1097" timestamp="1591876044894" />
+    <state x="588" y="268" width="671" height="677" key="search.everywhere.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1595146504048" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/network/TestNetworkActivity.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HelloAndroid$MainActivity.ic" NAME="MainActivity Coverage Results" MODIFIED="1592307183388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tayue.android.hello.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>

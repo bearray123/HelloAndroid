@@ -15,18 +15,40 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.RemoteViews;
 import com.tayue.android.hello.R;
+import java.io.IOException;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * Created by xionglei01@baidu.com on 2020-02-03.
  */
 public class DMAService extends Service {
 
-    private Handler mHandler = new Handler();
+    private static final String TAG = "network_test";
+
+    ////private Handler mMainHandler = new Handler();
+    //private HandlerThread handlerThread = new HandlerThread("my_handle_thread");
+    //
+    //private Handler myHandler;
+    //
+    //@Override public void onCreate() {
+    //    super.onCreate();
+    //    handlerThread.start();
+    //
+    //    myHandler = new Handler(handlerThread.getLooper());
+    //
+    //    myHandler.post(mRunnable);
+    //}
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -38,23 +60,33 @@ public class DMAService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("xl", "DMAService# onStartCommand");
 
+        // 模拟ANR
+        // vivo Android 9系统是6s ， 华为Android 10 手机是10s
+        // android.app.RemoteServiceException: Context.startForegroundService() did not then call Service.startForeground()
+        //mHandler.postDelayed(new Runnable() {
+        //    @Override public void run() {
+        //        setForegroundService();
+        //    }
+        //}, 10*1000);
+
+
         setForegroundService();
 
-        //new Thread(new Runnable() {
-        //    int count = 0;
-        //    @Override public void run() {
-        //        for (;;) {
-        //            count++;
-        //            Log.d("xl", "DMA Thread count++ # = " + count);
-        //            try {
-        //                // 每2分钟打印一次 log
-        //                Thread.sleep(1000 * 60 * 2);
-        //            } catch (InterruptedException e) {
-        //                e.printStackTrace();
-        //            }
-        //        }
-        //    }
-        //}).start();
+        new Thread(new Runnable() {
+            int count = 0;
+            @Override public void run() {
+                for (;;) {
+                    count++;
+                    Log.d("xl", "DMA Thread count++ # = " + count);
+                    try {
+                        // 每2分钟打印一次 log
+                        Thread.sleep(1000 * 5);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
         return super.onStartCommand(intent, flags, startId);
     }
 
@@ -114,5 +146,46 @@ public class DMAService extends Service {
         startForeground(101, builder.build());
 
     }
+
+
+
+
+    //private Runnable mRunnable = new Runnable() {
+    //    @Override public void run() {
+    //        getDataSync();
+    //        Log.d(TAG, "before postDelayed::");
+    //        //mMainHandler.postDelayed(mRunnable, 1000*3);
+    //        myHandler.postDelayed(mRunnable, 1000*3);
+    //
+    //    }
+    //};
+    //
+    //private void getDataSync() {
+    //    Log.d(TAG, "TestNetworkActivity# getDataSync::");
+    //    OkHttpClient client = new OkHttpClient();
+    //    Request request = new Request.Builder()
+    //                            .url("https://www.baidu.com")
+    //                            .build();
+    //    client.newCall(request).enqueue(new Callback() {
+    //        @Override public void onFailure(@NotNull Call call, @NotNull IOException e) {
+    //            Log.d(TAG, "TestNetworkActivity# network onFailure:: e" + e.getMessage());
+    //
+    //        }
+    //
+    //        @Override public void onResponse(@NotNull Call call, @NotNull Response response)
+    //            throws IOException {
+    //                if (response.isSuccessful()) {
+    //                    Log.d(TAG, "TestNetworkActivity# network SUCCESS, CODE=" + response.code());
+    //
+    //                } else {
+    //                    Log.d(TAG, "TestNetworkActivity# network FAILED~~~~ CODE=" + response.code());
+    //                }
+    //        }
+    //    });
+    //    Log.d(TAG, "getDataSync  end::");
+    //
+    //}
+
+
 }
 

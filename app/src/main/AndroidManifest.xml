@@ -8,17 +8,15 @@
   <!--android 9.0上使用前台服务，需要添加权限-->
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+  <uses-permission android:name="android.permission.INTERNET" />
 
-  <uses-permission android:name="android.permission.BLUETOOTH" />
-  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-  <!-- If your app targets Android 9 or lower, you can declare
-       ACCESS_COARSE_LOCATION instead. -->
-  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
 
 
   <application
       android:allowBackup="true"
-      android:icon="@mipmap/ic_launcher"
+      android:icon="@drawable/tayue_icon"
       android:label="@string/app_name"
       android:roundIcon="@mipmap/ic_launcher_round"
       android:supportsRtl="true"
@@ -33,7 +31,8 @@
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
-    <activity android:name="com.tayue.android.hello.TestConstraintLayoutActivity"/>
+      <activity android:name="com.tayue.android.hello.TestConstraintLayoutActivity"
+          android:exported="true"/>
     <activity android:name="com.tayue.android.hello.TestCoordinatorLayoutActivity"/>
 
 
@@ -59,7 +58,7 @@
 
 
     <activity android:name="com.tayue.android.hello.memory.MockMemoryLeakActivity"/>
-
+    <activity android:name="com.tayue.android.hello.network.TestNetworkActivity"/>
 
     <service android:name="com.tayue.android.hello.voicecommand.DMAService"></service>
 

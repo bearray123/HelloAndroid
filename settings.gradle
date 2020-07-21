@@ -1,1 +1,1 @@
-include ':app', ':mvvm', ':bluetooth'/*, ':hellokotlin'*/
+include ':app', ':mvvm', ':bluetooth', ':hellokotlin'
