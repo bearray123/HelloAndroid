@@ -10,6 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.widget.Toast;
 
 /**
  * Created by xionglei01@baidu.com on 2020-02-03.
@@ -21,6 +22,8 @@ public class VoiceCmdLauncherActivity extends Activity {
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
       Log.d("xl", "VoiceCmdLauncherActivity#onCreate------start");
+
+      Toast.makeText(this, "正在执行VoiceCmdLauncherActivity.onCreate...", Toast.LENGTH_SHORT).show();
 
       startDMAService();
 

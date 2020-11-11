@@ -33,6 +33,13 @@ dependencies {
   androidTestImplementation 'com.android.support.test:runner:1.0.2'
   androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+  // 协程需要单独引用
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${KOTLINX_COROUTINES_CORE_VERSION}"
+  // Android平台协程api
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${KOTLINX_COROUTINES_CORE_VERSION}"
+
+
 }
 repositories {
   mavenCentral()

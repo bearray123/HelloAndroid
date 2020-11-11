@@ -6,19 +6,18 @@ package com.tayue.android.hello;
 import android.bluetooth.BluetoothA2dp;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothHeadset;
+import android.content.ComponentName;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.browser.CommonWebActivity;
 import com.tayue.android.bluetooth.BTBroadcastReceiver;
 import com.tayue.android.hello.memory.MockMemoryLeakActivity;
-import com.tayue.android.hello.network.TestNetworkActivity;
-import com.tayue.android.hello.voicecommand.DMAService;
 import com.tayue.android.hello.voicecommand.VoiceAssistantInfoActivity;
 import com.tayue.android.hello.voicecommand.VoiceCmdLauncherActivity;
 import com.tayue.android.hellokotlin.PowerService;
@@ -33,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
     private View mTestVoiceCommand;
     private View mTestForgroundServiceBtn;
     private View mTestNetwork;
+    private View mTestPhoneProperty;
+    private View mTestWebView;
 
+    private TextView mWifiSleepPolicy;
 
 
 
@@ -50,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
       mTestVoiceCommand = findViewById(R.id.test_voice_command);
       mTestForgroundServiceBtn = findViewById(R.id.test_forgroudservice);
       mTestNetwork = findViewById(R.id.test_network);
+      mWifiSleepPolicy = (TextView) findViewById(R.id.wifi_sleep_state);
+      mTestPhoneProperty = findViewById(R.id.test_phone_property);
+      mTestWebView = findViewById(R.id.test_webview);
 
       initView();
 
@@ -80,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+
       mTestConstraintBtn.setOnClickListener(new View.OnClickListener() {
         @Override public void onClick(View v) {
             startActivity(new Intent(MainActivity.this, TestConstraintLayoutActivity.class));
@@ -121,15 +127,59 @@ public class MainActivity extends AppCompatActivity {
 
         mTestNetwork.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TestNetworkActivity.class));
+                //startActivity(new Intent(MainActivity.this, TestNetworkActivity.class));
+                boolean supportSet = true;
+                try {
+                    ComponentName componentName = new ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.power.ui.PowerSettingActivity");
+                    Intent intent = new Intent();
+                    intent.setComponent(componentName);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                } catch (Exception e) {
+                    supportSet = false;
+                    e.printStackTrace();
+                }
+                if (!supportSet) {
+                    Toast.makeText(MainActivity.this, "当前手机系统版本不支持网络休眠设置", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
+        mTestPhoneProperty.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PhonePropertyActivity.class));
+            }
+        });
+
+        mTestWebView.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CommonWebActivity.class));
+            }
+        });
+    }
+
+    @Override protected void onResume() {
+        super.onResume();
+        int wifiSleepState = getmWifiSleepPolicy();
+        mWifiSleepPolicy.setText(wifiSleepState + "");
     }
 
     @Override protected void onDestroy() {
         super.onDestroy();
         unregisterReceiver(mBTReceiver);
     }
+
+    private int getmWifiSleepPolicy() {
+        ContentResolver resolver = getContentResolver();
+        int value = android.provider.Settings.Global.getInt(resolver,
+            android.provider.Settings.Global.WIFI_SLEEP_POLICY,
+            android.provider.Settings.Global.WIFI_SLEEP_POLICY_DEFAULT);
+
+        //System.out.println("test -- wifi value old: "+ value + " default:" +
+        //    android.provider.Settings.Global.WIFI_SLEEP_POLICY_DEFAULT +
+        //    " never:" + android.provider.Settings.Global.WIFI_SLEEP_POLICY_NEVER);
+        return value;
+    }
+
 
 }

@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.util.Pair;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -42,17 +43,24 @@ public class VoiceAssistantHelper {
         return false;
     }
 
-    public static boolean isAlreadySetXiaoduAsDefaultVocieAssistant(Context context) {
+    /**
+     * 查询当前系统默认的语音助手
+     * @param context
+     * @return <boolean, String>  boolean = true 代表当前默认语音助手是小度APP
+     *                            String 返回当前默认语音助手的包名
+     */
+    public static Pair<Boolean, String> queryDefaultVocieAssistant(Context context) {
         PackageManager pm = context.getPackageManager();
         Intent intent = new Intent(Intent.ACTION_VOICE_COMMAND);
         ResolveInfo info = pm.resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY);
         if (info != null) {
             ActivityInfo activityInfo = info.activityInfo;
             if (activityInfo != null) {
-                return XIAODU_APP_PACKAGE.equals(info.activityInfo.packageName);
+                Boolean isXiaoduDefault = XIAODU_APP_PACKAGE.equals(info.activityInfo.packageName);
+                return new Pair<>(isXiaoduDefault, info.activityInfo.packageName);
             }
         }
-        return false;
+        return new Pair<>(false, "nothing");
     }
 
 

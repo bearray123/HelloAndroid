@@ -1,1 +1,2 @@
+include ':browser'
 include ':app', ':mvvm', ':bluetooth', ':hellokotlin'
