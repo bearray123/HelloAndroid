@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <TextView android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12dp"
+      android:id="@+id/isalreadycleanallvoicedefaultassistant"
+      android:text="初始化值"/>
+
+  <TextView android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12dp"
+      android:layout_marginTop="15dp"
+      android:id="@+id/isalreadysetxiaoduasdefaultvocieassistant"
+      android:text="初始化值"
+  />
+
+  <TextView
+      android:id="@+id/current_voice_assistant"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12dp"
+      android:layout_marginTop="15dp"
+      android:text="初始化值"
+      />
+
+  <TextView android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12dp"
+      android:layout_marginTop="15dp"
+      android:id="@+id/installedvoiceassistant"
+      android:text="初始化值"
+  />
+
+  <Button
+      android:id="@+id/jump_voice_ass_app_settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="跳转到当前默认语音助手APP的设置页"
+    />
+
+
+  <!--<TextView android:layout_width="match_parent"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:id="@+id/isalreadysetxiaoduasdefaultvocieassistant"-->
+      <!--android:text="初始化值"-->
+  <!--/>-->
+
+
+
+
+</LinearLayout>

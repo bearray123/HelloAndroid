@@ -1,0 +1,13 @@
+<!--
+  ~ Copyright (C) 2020 Baidu, Inc. All Rights Reserved.
+  -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tayue.android.mvvm">
+
+  <application>
+
+    <activity android:name=".view.TestMVVMMainActivity"/>
+
+  </application>
+
+</manifest>

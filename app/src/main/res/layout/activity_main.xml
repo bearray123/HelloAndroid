@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <Button
+      android:id="@+id/test_constraint"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test ConstraintLayout"
+      android:textAllCaps="false"
+      />
+  <Button
+      android:id="@+id/test_coordinator"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test CoordinatorLayout"
+  />
+
+  <Button
+      android:id="@+id/test_kotlin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test kotlin"
+      />
+
+  <Button
+      android:id="@+id/test_mvvm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test MVVM"
+  />
+
+  <Button
+      android:id="@+id/test_memory_shake"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test Memory Leak/Shake"
+  />
+
+  <Button
+      android:id="@+id/test_voice_command"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test Voice Command"
+  />
+
+  <Button
+      android:id="@+id/test_forgroudservice"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Test 前台服务"
+  />
+
+  <Button
+      android:id="@+id/test_network"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="网络测试"
+      />
+
+  <Button
+      android:id="@+id/test_phone_property"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="手机参数"
+      />
+
+  <Button
+      android:id="@+id/test_webview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="webview测试"
+      android:textAllCaps="false"
+      />
+
+
+
+  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开关含义：0代表 sleep shortly after the turning off \n
+                   1 代表 the device is on battery, and never go to sleep when the device isplugged in.\n
+                   2 代表 never go to sleep \n
+PS: use the default policy when the device is on battery, and never go to sleep when the device is plugged in."
+      />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+    <TextView
+        android:id="@+id/wifi_sleep_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="WiFi休眠开关："
+        />
+
+    <TextView
+        android:id="@+id/wifi_sleep_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="默认值"
+        />
+  </LinearLayout>
+
+</LinearLayout>
