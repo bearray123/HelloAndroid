@@ -1,3 +1,0 @@
-include ':kotlinInAndroid'
-include ':browser'
-include ':app', ':mvvm', ':bluetooth', ':hellokotlin', ':kotlinInAndroid'
