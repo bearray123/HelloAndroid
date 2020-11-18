@@ -29,6 +29,17 @@ fun main() {
     poorguy.moneyCount = 100.0
     poorguy.age = 20
     println("the poorguy'age is ${poorguy.age}, and has money = ${poorguy.moneyCount}")
+
+    println("the return is : ${testLetReturn(poorguy)}")
+    
+}
+
+fun testLetReturn(poorGuy: PoorGuy) : String {
+    poorGuy.let {
+        println("testLetReturn # let ...");
+        return "return-in-let"
+    }
+    return "final-return"
 }
 
 

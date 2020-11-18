@@ -39,7 +39,10 @@ class CommonWebActivity : Activity() {
             }
 
             override fun onPageFinished(view: WebView?, url: String?) {
+//                mWebView.loadUrl("javascript:$('.playorpause').click()" ); // 这个兼容性差些，初步测试不work
+                mWebView.loadUrl("javascript:document.querySelector('.playorpause').click()" ) // 常规做法，通用性号
                 super.onPageFinished(view, url)
+
             }
 
             override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {

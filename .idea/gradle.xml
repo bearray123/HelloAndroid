@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/bluetooth" />
             <option value="$PROJECT_DIR$/browser" />
             <option value="$PROJECT_DIR$/hellokotlin" />
+            <option value="$PROJECT_DIR$/kotlinInAndroid" />
             <option value="$PROJECT_DIR$/mvvm" />
           </set>
         </option>

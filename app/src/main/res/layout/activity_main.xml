@@ -25,6 +25,14 @@
   />
 
   <Button
+      android:id="@+id/test_kotlin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="Test kotlin"
+      />
+
+  <Button
       android:id="@+id/test_mvvm"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

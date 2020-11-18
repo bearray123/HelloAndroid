@@ -35,6 +35,7 @@ dependencies {
     implementation project(':bluetooth')
     implementation project(':hellokotlin')
     implementation project(':browser')
+    implementation project (':kotlinInAndroid')
 
 
 }

@@ -4,10 +4,8 @@
 package com.tayue.android.hellokotlin.coroutines
 
 import kotlinx.coroutines.*
-import kotlin.coroutines.CoroutineContext
+import kotlin.coroutines.*
 import kotlin.coroutines.EmptyCoroutineContext
-import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCoroutine
 
 /**
  * Created by xionglei01@baidu.com on 2020/9/9.
@@ -67,9 +65,9 @@ fun testLaunch() {
 //
 fun testLaunch2() {
 
+    println("testLaunch2 execute:  in thread: ${Thread.currentThread().name}")
 
-
-    GlobalScope.launch {
+    GlobalScope.launch{
         println("GlobalScope.launch, 111111  block started in thread: ${Thread.currentThread().name}")
         delay(1000)
         println("GlobalScope.launch, 222222  block started in thread: ${Thread.currentThread().name}")
@@ -77,7 +75,7 @@ fun testLaunch2() {
 //        coroutineScope {
 //
 //        }
-            getUserInfoFromNetwork()
+        getUserInfoFromNetwork()
 
         println("After execute getUserInfoFromNetwork,  in thread: ${Thread.currentThread().name}")
 
@@ -145,11 +143,11 @@ fun main1() {
 
 
 private suspend fun getUserInfoFromNetwork() {
-//    withContext(Dispatchers.Default) {
+    withContext(Dispatchers.IO) {
         println("getUserInfoFromNetwork :: start::  on Thread :: ${Thread.currentThread().name}")
         delay(1000)
         println("getUserInfoFromNetwork :: end::  on Thread :: ${Thread.currentThread().name}")
-//    }
+    }
 }
 
 private fun setUserInfo() {

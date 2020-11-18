@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.example.browser.CommonWebActivity;
+import com.example.kotlininandroid.KotlinMainEntryActivity;
 import com.tayue.android.bluetooth.BTBroadcastReceiver;
 import com.tayue.android.hello.memory.MockMemoryLeakActivity;
 import com.tayue.android.hello.voicecommand.VoiceAssistantInfoActivity;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private View mTestConstraintBtn;
     private View mTestCoordinatorBtn;
     private View mTestMemoryShakeBtn;
+    private View mTestKolin;
     private View mTestMVVMBtn;
     private View mTestVoiceCommand;
     private View mTestForgroundServiceBtn;
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
       mWifiSleepPolicy = (TextView) findViewById(R.id.wifi_sleep_state);
       mTestPhoneProperty = findViewById(R.id.test_phone_property);
       mTestWebView = findViewById(R.id.test_webview);
+      mTestKolin = findViewById(R.id.test_kotlin);
 
       initView();
 
@@ -104,6 +107,12 @@ public class MainActivity extends AppCompatActivity {
             @Override public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, MockMemoryLeakActivity.class));
 
+            }
+        });
+
+        mTestKolin.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, KotlinMainEntryActivity.class));
             }
         });
 

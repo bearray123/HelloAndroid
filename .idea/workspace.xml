@@ -18,27 +18,25 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="warn" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="KotlinMainEntryActivity:" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c00e4d-5aa7-451b-93f2-3f680a54effe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/PhonePropertyActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/phone_property_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/src/androidTest/java/com/example/browser/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/src/main/java/com/example/browser/CommonWebActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/src/main/res/layout/webview_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser/src/test/java/com/example/browser/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/coroutines/CoroutinesTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/delegate/DelegateTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/expresssion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/extension/Extention.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/type/TestType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/coroutines/TempForDecompile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/syntax/BasalSyntax.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/syntax/LambdaMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/androidTest/java/com/example/kotlininandroid/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/main/java/com/example/kotlininandroid/KotlinMainEntryActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/main/java/com/example/kotlininandroid/temp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/main/res/layout/kotlin_main_entry_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlinInAndroid/src/test/java/com/example/kotlininandroid/ExampleUnitTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -63,16 +61,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceAssistantInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceAssistantInfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/tayue/android/hello/voicecommand/VoiceCmdLauncherActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/voice_assistant_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/voice_assistant_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/src/main/java/com/tayue/android/bluetooth/VoiceAssistantHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellokotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hellokotlin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluetooth/bluetooth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bluetooth/bluetooth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser/src/main/java/com/example/browser/CommonWebActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/browser/src/main/java/com/example/browser/CommonWebActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/TestSyntax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/syntax/TestSyntax.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/coroutines/CoroutinesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/coroutines/CoroutinesTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvvm/mvvm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvvm/mvvm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,9 +185,9 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="layoutResourceFile" />
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -236,14 +232,8 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tayue.android.hellokotlin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tayue.android.helloword_android" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/browser/src/main/res/layout" />
@@ -252,8 +242,16 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tayue.android.helloword_android" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin/syntax" />
+      <recent name="$PROJECT_DIR$/hellokotlin/src/main/java/com/tayue/android/hellokotlin" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Kotlin.LambdaMainKt">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -356,32 +354,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegateTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="hellokotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.tayue.android.hellokotlin.delegate.DelegateTestKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpresssionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="hellokotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.tayue.android.hellokotlin.ExpresssionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExtentionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="hellokotlin" />
       <option name="VM_PARAMETERS" />
@@ -390,6 +362,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.tayue.android.hellokotlin.extension.ExtentionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hellokotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tayue.android.hellokotlin.syntax.LambdaMainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TempKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinInAndroid" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlininandroid.TempKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -422,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ExtentionKt" />
-        <item itemvalue="Kotlin.TestMainKt" />
-        <item itemvalue="Kotlin.DelegateTestKt" />
+        <item itemvalue="Kotlin.LambdaMainKt" />
+        <item itemvalue="Kotlin.TempKt" />
         <item itemvalue="Kotlin.CoroutinesTestKt" />
-        <item itemvalue="Kotlin.ExpresssionKt" />
+        <item itemvalue="Kotlin.TestMainKt" />
+        <item itemvalue="Kotlin.ExtentionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595332574967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加webview测试模块，优化代码">
+      <created>1605079718456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605079718456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,17 +485,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交一波，加了些kotlin测试代码、换了app的图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交一波，加了些kotlin测试代码、换了app的图标" />
+    <MESSAGE value="增加webview测试模块，优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加webview测试模块，优化代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2277" y="290" key="#PSD" timestamp="1605063920280">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2277" y="290" key="#PSD/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605063920280" />
-    <state x="724" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1602068944919">
+    <state x="724" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1605341393928">
       <screen x="55" y="23" width="1737" height="1097" />
     </state>
-    <state x="724" y="283" key="#com.intellij.ide.util.MemberChooser/55.23.1737.1097@55.23.1737.1097" timestamp="1602068944919" />
+    <state x="724" y="283" key="#com.intellij.ide.util.MemberChooser/55.23.1737.1097@55.23.1737.1097" timestamp="1605341393928" />
     <state x="355" y="504" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599892171395">
       <screen x="55" y="23" width="1737" height="1097" />
     </state>
@@ -503,34 +509,38 @@
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2340" y="313" key="AndroidCreateResourceDirectoryDialog/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605008840092" />
+    <state x="2347" y="152" key="CommitChangelistDialog2" timestamp="1605079717840">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2347" y="152" key="CommitChangelistDialog2/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605079717840" />
     <state x="2540" y="300" key="FileChooserDialogImpl" timestamp="1605004302459">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="2540" y="300" key="FileChooserDialogImpl/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605004302459" />
-    <state width="1878" height="306" key="GridCell.Tab.0.bottom" timestamp="1605011347849">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1605512647225">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="252" key="GridCell.Tab.0.bottom/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604482706206" />
-    <state width="1878" height="306" key="GridCell.Tab.0.bottom/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605011347849" />
-    <state width="1695" height="321" key="GridCell.Tab.0.bottom/55.23.1737.1097@55.23.1737.1097" timestamp="1604825404406" />
-    <state width="1878" height="306" key="GridCell.Tab.0.center" timestamp="1605011347848">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605512647225" />
+    <state width="1695" height="320" key="GridCell.Tab.0.bottom/55.23.1737.1097@55.23.1737.1097" timestamp="1605448440609" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1605512647225">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="252" key="GridCell.Tab.0.center/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604482706205" />
-    <state width="1878" height="306" key="GridCell.Tab.0.center/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605011347848" />
-    <state width="1695" height="321" key="GridCell.Tab.0.center/55.23.1737.1097@55.23.1737.1097" timestamp="1604825404406" />
-    <state width="1878" height="306" key="GridCell.Tab.0.left" timestamp="1605011347848">
+    <state width="1878" height="305" key="GridCell.Tab.0.center/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605512647225" />
+    <state width="1695" height="320" key="GridCell.Tab.0.center/55.23.1737.1097@55.23.1737.1097" timestamp="1605448440609" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1605512647224">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="252" key="GridCell.Tab.0.left/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604482706205" />
-    <state width="1878" height="306" key="GridCell.Tab.0.left/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605011347848" />
-    <state width="1695" height="321" key="GridCell.Tab.0.left/55.23.1737.1097@55.23.1737.1097" timestamp="1604825404406" />
-    <state width="1878" height="306" key="GridCell.Tab.0.right" timestamp="1605011347848">
+    <state width="1878" height="305" key="GridCell.Tab.0.left/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605512647224" />
+    <state width="1695" height="320" key="GridCell.Tab.0.left/55.23.1737.1097@55.23.1737.1097" timestamp="1605448440608" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1605512647225">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="252" key="GridCell.Tab.0.right/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604482706205" />
-    <state width="1878" height="306" key="GridCell.Tab.0.right/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605011347848" />
-    <state width="1695" height="321" key="GridCell.Tab.0.right/55.23.1737.1097@55.23.1737.1097" timestamp="1604825404406" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605512647225" />
+    <state width="1695" height="320" key="GridCell.Tab.0.right/55.23.1737.1097@55.23.1737.1097" timestamp="1605448440609" />
     <state width="1695" height="363" key="GridCell.Tab.1.bottom" timestamp="1601972791623">
       <screen x="55" y="23" width="1737" height="1097" />
     </state>
@@ -551,21 +561,22 @@
       <screen x="55" y="23" width="1737" height="1097" />
     </state>
     <state x="679" y="300" width="543" height="544" key="StructurePopup/55.23.1737.1097@55.23.1737.1097" timestamp="1602042238105" />
-    <state width="676" height="445" key="SwitcherDM" timestamp="1604553771054">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="612" height="476" key="SwitcherDM" timestamp="1605431338925">
+      <screen x="55" y="23" width="1737" height="1097" />
     </state>
     <state width="676" height="445" key="SwitcherDM/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604483147623" />
     <state width="676" height="445" key="SwitcherDM/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1604553771054" />
-    <state x="406" y="207" width="866" height="728" key="find.popup" timestamp="1602061209407">
+    <state width="612" height="476" key="SwitcherDM/55.23.1737.1097@55.23.1737.1097" timestamp="1605431338925" />
+    <state x="406" y="207" width="866" height="728" key="find.popup" timestamp="1605336552962">
       <screen x="55" y="23" width="1737" height="1097" />
     </state>
-    <state x="406" y="207" width="866" height="728" key="find.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1602061209407" />
-    <state x="2381" y="259" width="741" height="652" key="search.everywhere.popup" timestamp="1605072593961">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state x="406" y="207" width="866" height="728" key="find.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1605336552962" />
+    <state x="588" y="268" width="671" height="677" key="search.everywhere.popup" timestamp="1605434005844">
+      <screen x="55" y="23" width="1737" height="1097" />
     </state>
     <state x="2381" y="259" width="741" height="652" key="search.everywhere.popup/1792.23.1920.1057/53.23.1739.1097@1792.23.1920.1057" timestamp="1604482925485" />
     <state x="2381" y="259" width="741" height="652" key="search.everywhere.popup/1792.23.1920.1057/55.23.1737.1097@1792.23.1920.1057" timestamp="1605072593961" />
-    <state x="588" y="268" width="671" height="677" key="search.everywhere.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1604823950239" />
+    <state x="588" y="268" width="671" height="677" key="search.everywhere.popup/55.23.1737.1097@55.23.1737.1097" timestamp="1605434005844" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/bluetooth/bluetooth.iml" filepath="$PROJECT_DIR$/bluetooth/bluetooth.iml" group="HelloAndroid/bluetooth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/browser/browser.iml" filepath="$PROJECT_DIR$/.idea/modules/browser/browser.iml" group="HelloAndroid/browser" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hellokotlin/hellokotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/hellokotlin/hellokotlin.iml" group="HelloAndroid/hellokotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlinInAndroid/kotlinInAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlinInAndroid/kotlinInAndroid.iml" group="HelloAndroid/kotlinInAndroid" />
       <module fileurl="file://$PROJECT_DIR$/mvvm/mvvm.iml" filepath="$PROJECT_DIR$/mvvm/mvvm.iml" group="HelloAndroid/mvvm" />
     </modules>
   </component>
