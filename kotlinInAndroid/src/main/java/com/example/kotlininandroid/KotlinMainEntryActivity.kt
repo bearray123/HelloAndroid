@@ -7,11 +7,9 @@ import android.app.Activity
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
+import com.tayue.android.hellokotlin.syntax.Product
 import kotlinx.coroutines.*
-import kotlin.coroutines.Continuation
-import kotlin.coroutines.ContinuationInterceptor
-import kotlin.coroutines.CoroutineContext
-import kotlin.coroutines.EmptyCoroutineContext
+import kotlin.coroutines.*
 
 /**
  * Created by xionglei01@baidu.com on 2020/11/14.
@@ -40,6 +38,10 @@ class KotlinMainEntryActivity : Activity(), CoroutineScope by MainScope() { // å
 
         setContentView(R.layout.kotlin_main_entry_layout)
 
+
+//        ageTxt.setOnClickListener()
+
+
         CoroutineScope(EmptyCoroutineContext).launch {
 
         }
@@ -56,6 +58,7 @@ class KotlinMainEntryActivity : Activity(), CoroutineScope by MainScope() { // å
             hasMerried.text = persnalInfo.second.toString()
             Log.d(TAG, "age and hasMerried is refreshed:: ${Thread.currentThread().name}") // main
 
+            val product = getProductInfo()
 
         }
 
@@ -63,12 +66,6 @@ class KotlinMainEntryActivity : Activity(), CoroutineScope by MainScope() { // å
 
 
     }
-
-
-    fun initView() {
-
-    }
-
 
     suspend fun getUserInfo(): String {
         Log.d(TAG, "getUserInfo# before withContext ... in Thread:: ${Thread.currentThread().name}") // main

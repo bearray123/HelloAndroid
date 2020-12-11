@@ -4,6 +4,7 @@
 package com.tayue.android.hello;
 
 import android.bluetooth.BluetoothA2dp;
+import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothHeadset;
 import android.content.ComponentName;
@@ -12,6 +13,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +25,7 @@ import com.tayue.android.hello.voicecommand.VoiceAssistantInfoActivity;
 import com.tayue.android.hello.voicecommand.VoiceCmdLauncherActivity;
 import com.tayue.android.hellokotlin.PowerService;
 import com.tayue.android.mvvm.view.TestMVVMMainActivity;
+import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
+
+      View contentView = findViewById(android.R.id.content);
+      Log.d("xl", "contentView = " + contentView);
+
       mTestConstraintBtn = findViewById(R.id.test_constraint);
       mTestCoordinatorBtn = findViewById(R.id.test_coordinator);
       mTestMemoryShakeBtn = findViewById(R.id.test_memory_shake);
